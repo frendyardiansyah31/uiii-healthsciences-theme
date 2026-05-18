@@ -98,6 +98,7 @@ class HealthSciencesThemePlugin extends ThemePlugin
         $this->addStyle('app-css', 'libs/app.min.css');
         $this->addStyle('stylesheet', 'styles/index.less');
         $this->modifyStyle('stylesheet', ['addLessVariables' => join("\n", $additionalLessVariables)]);
+        $this->addStyle('uiii', 'styles/uiiistyle.css');
 
         // Styles for HTML galleys
         $this->addStyle('htmlFont', 'styles/htmlGalley.less', ['contexts' => 'htmlGalley']);
