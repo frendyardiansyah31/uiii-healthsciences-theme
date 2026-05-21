@@ -521,11 +521,11 @@
   margin-top: 2rem;
 }
 
-.sidebar-wrapper #customblock-GoogleScholar {
+.sidebar-wrapper #customblock-googlescholar {
   margin-bottom: 2rem;
 }
 
-.sidebar-wrapper #customblock-GoogleScholar .title {
+.sidebar-wrapper #customblock-googlescholar .title {
   font-size: 1.2em;
   background-color: #082D40;
   color: #fff;
@@ -619,18 +619,18 @@
   width: 100% !important;
 }
 
-.sidebar-wrapper #customblock-GoogleScholar {
+.sidebar-wrapper #customblock-googlescholar {
   margin-bottom: 2rem;
 }
 
-.sidebar-wrapper #customblock-GoogleScholar .title {
+.sidebar-wrapper #customblock-googlescholar .title {
   font-size: 1.2em;
   background-color: #082D40;
   color: #fff;
   padding-left: 1rem;
 }
 
-.sidebar-wrapper #customblock-GoogleScholar .content .item {
+.sidebar-wrapper #customblock-googlescholar .content .item {
   flex-wrap: wrap;
 }
 
@@ -920,18 +920,19 @@
     display: flex;
   }
 } */
- .mpr-sidebar-block.metrics .title{
+.mpr-sidebar-block.metrics .title {
   font-size: 1.2em;
   background-color: #082D40;
   color: #fff;
   margin-bottom: 0;
   padding-left: 1rem
- }
+}
 
- .sidebar-block .pkp_block#customblock-index {
+.sidebar-block .pkp_block#customblock-index {
   padding: 0 !important;
   margin-bottom: 2rem;
- }
+}
+
 .sidebar-block #customblock-index .content {
   background-color: #F7F7F7;
 }
@@ -944,11 +945,11 @@
   margin-bottom: 0;
 }
 
-.sidebar-wrapper #customblock-GoogleScholar {
+.sidebar-wrapper #customblock-googlescholar {
   margin-bottom: 2rem;
 }
 
-.sidebar-wrapper #customblock-GoogleScholar .title {
+.sidebar-wrapper #customblock-googlescholar .title {
   font-size: 1.2em;
   background-color: #082D40;
   color: #fff;
@@ -999,4 +1000,9 @@
   background-color: #3C6A7C;
   color: #fff;
   cursor: pointer;
+}
+
+/* Nonaktifkan toggle author bio — selalu tampil tanpa perlu klik */
+.article-details-author.hideAuthor {
+  display: block !important;
 }

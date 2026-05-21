@@ -133,7 +133,7 @@
 				{assign var="authorBioIndex" value=0}
 				<div class="article-details-authors">
 					{foreach from=$publication->getData('authors') item=author key=authorKey}
-						<div class="article-details-author hideAuthor" id="author-{$authorKey+1}">
+						<div class="article-details-author" id="author-{$authorKey+1}">
 							<div class="article-details-author-name small-screen">
 								{$author->getFullName()|escape}
 							</div>
