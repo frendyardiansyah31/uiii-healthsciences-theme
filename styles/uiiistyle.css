@@ -1002,7 +1002,17 @@
   cursor: pointer;
 }
 
-/* Nonaktifkan toggle author bio — selalu tampil tanpa perlu klik */
+/* Override toggle author bio — selalu tampil, fungsi JS tidak dihapus */
 .article-details-author.hideAuthor {
   display: block !important;
+}
+
+.author-string-href .author-plus,
+.author-string-href .author-minus {
+  display: none !important;
+}
+
+.author-string-href {
+  cursor: default !important;
+  pointer-events: none !important;
 }
