@@ -49,7 +49,7 @@
 {* Header *}
 <header class="main-header">
 {* ===== MAINTENANCE BANNER + MODAL — hapus/comment blok ini untuk menonaktifkan ===== *}
-	<style>
+	{*<style>
 		#maintenance-banner {
 			background: #F59E0B;
 			color: #1C1917;
@@ -149,20 +149,20 @@
 			#maintenance-banner { font-size: 12px; padding: 8px 12px; }
 			#maintenance-banner .banner-btn { font-size: 12px; padding: 5px 10px; }
 		}
-	</style>
+	</style>*/}
 
 	{* BANNER *}
-	<div id="maintenance-banner">
+	{* <div id="maintenance-banner">
 		<span class="banner-text">
 			&#128296; <strong>System Maintenance in Progress</strong> &mdash;
 			Registration and article submissions are temporarily unavailable online.
 			Please contact your journal administrator via email.
 		</span>
 		<button class="banner-btn" onclick="openMaintenanceModal()">Learn More</button>
-	</div>
+	</div> *}
 
 	{* MODAL *}
-	<div id="maintenanceModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+	{* <div id="maintenanceModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
 		<div class="modal-box">
 			<div class="modal-header" id="modalTitle">
 				&#9888;&#65039; Important Notice: System Maintenance &amp; Upgrade
@@ -180,13 +180,6 @@
 				<p class="section-title">How to Submit During This Period:</p>
 				<p>Please contact your respective journal administrator directly via email. Our team will respond with further instructions and the necessary forms to complete your submission.</p>
 
-				{* <p class="section-title">Please Include in Your Email:</p>
-				<ul>
-					<li>Full name and institutional affiliation</li>
-					<li>Manuscript title (if applicable)</li>
-					<li>Type of request: registration / new submission / revision</li>
-				</ul> *}
-
 				<p>We sincerely apologize for any inconvenience and appreciate your understanding and continued support.</p>
 				<p><em>&mdash; The UIII Journal Portal Team</em></p>
 			</div>
@@ -194,10 +187,10 @@
 				<button class="modal-confirm-btn" onclick="closeMaintenanceModal()">I Understand</button>
 			</div>
 		</div>
-	</div>
+	</div> *}
 
 	{* JAVASCRIPT *}
-	<script>
+	{* <script>
 		function openMaintenanceModal() {
 			document.getElementById('maintenanceModal').classList.add('active');
 		}
@@ -210,7 +203,7 @@
 				openMaintenanceModal();
 			}
 		});
-	</script>
+	</script> *}
 	{* ===== END MAINTENANCE BANNER + MODAL ===== *}
 	<div class="container">
 
