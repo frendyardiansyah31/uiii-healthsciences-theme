@@ -194,7 +194,7 @@
 									</svg></a></li>
 						</ul>
 					</div>
-					{if $currentJournal->getPath() == 'mber' || $currentJournal->getPath() == 'mpr'}
+					{if $currentJournal->getPath() == 'mber' || $currentJournal->getPath() == 'mpr' || $currentJournal->getPath() == 'isr' || $currentJournal->getPath() == 'mer'}
 						<div class="mpr-sidebar-block metrics">
 							<div class="title">
 								Metrics Journal
